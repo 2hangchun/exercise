@@ -6,7 +6,6 @@
 
 <script>
 import ComponentA from "./components/ComponentA";
-
 export default {
   name: "App",
   components: {

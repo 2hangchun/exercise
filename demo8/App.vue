@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <ComponentA />
+    <CardList />
   </div>
 </template>
 
 <script>
-import ComponentA from "./components/ComponentA";
-
+import CardList from "./components/CardList";
 export default {
   name: "App",
   components: {
-    ComponentA,
+    CardList,
   },
 };
 </script>
