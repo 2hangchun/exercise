@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      #container {
+        /* padding-left: 200px;
+        padding-right: 150px; */
+        overflow: auto;
+      }
+      #container p {
+        float: left;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+      }
+      .center {
+        width: 100%;
+        background-color: lightcoral;
+      }
+      .left {
+        width: 200px;
+        /* margin-left: -100%; */
+        background-color: lightcyan;
+        /* position: relative;
+        left: -200px; */
+      }
+      .right {
+        width: 150px;
+        /* margin-right: -150px; */
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <p class="center">我是中间</p>
+      <p class="left">我是左边</p>
+      <p class="right">我是右边</p>
+    </div>
+  </body>
+</html>
